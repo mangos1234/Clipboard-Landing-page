@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Bai Jamjuree',Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: 600;
+    color: hsl(210, 10%, 33%);
+}
+
+header{
+    background: url(./images/bg-header-mobile.png) no-repeat center  center/cover;
+    height: 45vh;
+}
+
+#logo-container{
+    display: flex;
+    justify-content: center;
+    padding: 15vh 0 10vh 0;
+}
+
+
+.container{
+    padding: 0 4%;
+    width: 100%;
+}
+
+.big{
+    width: 100%;
+    padding: 5%;
+}
+
+.icon{
+    padding: 10%;
+}
+
+p{
+    font-weight: 400;
+    color: hsl(201, 11%, 66%);
+}
+
+.padding{
+    padding: 5%; 
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+}
+
+button{
+    padding: 5%;
+    margin: 4% 0;
+    border-radius: 25px;
+    border: none;
+    color: white;
+}
+
+.green-btn{
+    background-color: hsl(171, 66%, 44%);
+}
+
+.blue-btn{
+    background-color: hsl(233, 100%, 69%);
+}
+
+h2{
+    padding: 0 17%;
+}
+
+.media{
+    display: flex;
+    flex-direction: column;
+    padding: 0 20%;
+}
+
+.media img{
+    padding: 20%;
+}
+
+.whitespace{
+    padding: 20%;
+}
+
+footer{
+    background: rgb(245, 246, 248);
+}
+
+li{
+    padding: 3%;
+    font-weight: 400;
+}
+
+.socials img{
+    padding: 5%;
+}
+
+.footerlogo{
+    padding: 5%;
+}

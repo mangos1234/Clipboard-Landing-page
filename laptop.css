@@ -1,0 +1,129 @@
+.padding{
+    padding: 2% 25% 5% 25%;
+}
+
+.buttons{
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 0;
+}
+
+button{
+    padding: 2% 3%;
+    margin: 2%;
+    width: 30%;
+}
+
+h1{
+    font-size: 40px;
+}
+
+.whitespace{
+    padding: 5%;
+}
+
+h2{
+    font-size: 35px;
+}
+
+p{
+    line-height: 30px;
+}
+
+.laptop{
+    display: flex;
+    padding-left: 0;
+    position: relative;
+}
+
+.lpt-img{
+    width: 50%;
+    margin-left: 2%;
+}
+
+.txt{
+    width: 50%;
+}
+
+.laptop p,
+.laptop h2{
+    text-align: left;
+    padding-left: 0;
+}
+
+.laptop h2{
+    padding-top: 10%;
+}
+
+.big{
+    padding: 0;
+}
+
+.devices{
+    padding: 10% 10% 0 10%;
+}
+
+.icon-container{
+    display: flex;
+}
+
+.ic{
+    width: 33%;
+}
+
+.ic p,
+.ic h2{
+    padding: 0;
+}
+
+.ic h2{
+    padding-bottom: 5%;
+}
+
+.media{
+    flex-direction: row;
+    padding: 0;
+    align-items: center;
+    display: flow-root;
+}
+
+.media img{
+    padding: 5%;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.footerlogo {
+    width: 33%;
+    padding: 0;
+}
+
+.footerlogo img{
+    height: 11vh;
+    padding-top: 1vh;
+}
+
+ul {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    list-style: none;
+    padding: 1%;
+    width: 33%;
+}
+
+li{
+    padding: 3%;
+    text-align: left;
+}
+
+.socials{
+    width: 33%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+}
